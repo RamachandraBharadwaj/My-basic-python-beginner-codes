@@ -42,7 +42,7 @@ def convo(x):
 n=input("Enter a number:")
 l=len(n)
 numbers=[["","one","two","three","four","five","six","seven","eight","nine"],["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninty"]]
-spl=["","eleven","twelve","thierteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
+spl=["ten","eleven","twelve","thierteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
 try:
     x=int(n)
     match x:
