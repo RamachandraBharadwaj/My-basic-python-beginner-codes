@@ -480,7 +480,7 @@ def login():
 c=0
 
 #fonts -Poor Richard
-ct.set_default_color_theme("E:\\Coding guide\\Audi proj w somanath and anurag\\bihlana.json")
+ct.set_default_color_theme("bihlana.json")
 win.configure(fg_color="#b6e3c6")
 
 #ct.set_default_color_theme("light")
@@ -585,7 +585,7 @@ not_log_mes.pack()
 carto=ct.CTkLabel(tabs.tab("cart"),text="items in cart :",font=("MS Sans Serif",20),)
 carto.pack(side="top",pady=10)
 
-feedback=ct.CTkImage(Image.open(r"E:\Coding guide\Audi proj w somanath and anurag\feedback.png"))
+feedback=ct.CTkImage(Image.open(r"feedback.png"))
 
 with open("restaurants.json","r") as rem:
     hotels=json.load(rem)
